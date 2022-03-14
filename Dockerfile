@@ -39,3 +39,5 @@ ENV PATH=/opt/msvc/bin/x86:$PATH
 
 WORKDIR /home/wine
 
+COPY wine-msvc.sh /opt/msvc/bin/x86/wine-msvc.sh
+
